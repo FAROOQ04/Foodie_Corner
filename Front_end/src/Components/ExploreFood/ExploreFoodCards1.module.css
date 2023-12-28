@@ -1,0 +1,21 @@
+
+#Cards1{
+    width: 17rem;
+   margin: 0.6rem auto;
+   border-radius: 30px;
+   overflow: hidden;
+
+}
+#Cards1 img{
+   height: 10rem;
+   width: 110%;
+   padding: 0px;
+   margin-left: -12px;
+}
+#containerFluid{
+  
+   margin: 10px auto 0px auto;
+   position: relative;
+   
+}
+

@@ -1,0 +1,45 @@
+#container
+{
+    border: 1px solid rgb(106, 106, 106);
+    margin:1.25rem auto;
+    width: 43.75rem;
+    border-radius: 1.25rem;
+    margin-bottom: 5rem;
+
+}
+#form {
+    margin:1.25rem 0 ;
+    align-items: center;
+   
+   
+}
+#col{
+    margin: 5px auto;
+    width: 100%;
+    display: flex;
+    
+}
+#col label{
+    width: 20%;
+    margin: 10px 2px;
+
+}
+#col input{
+    margin: 10px 2px;
+}
+#button{
+    margin: 10px auto;
+    position: relative;
+    left: 40%;
+    
+}
+@media screen and (max-width:585px) {
+    #container{
+        width: auto;
+        height: auto;
+    }    
+    #col{
+        display: flex;
+        flex-direction: column;
+    }
+}

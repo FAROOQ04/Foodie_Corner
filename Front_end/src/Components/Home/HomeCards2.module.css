@@ -1,0 +1,41 @@
+
+#Cards1{
+    width: 18rem;
+   margin: 0.6rem auto ;
+   border-radius:20px ;
+   overflow: hidden;
+
+   
+
+}
+#Cards1 img{
+   height: 12.5rem;
+   width: 110%;
+   padding: 0px;
+   margin-left: -11px;
+   border-radius:0px 0px 15px 15px;
+   cursor: pointer;
+}
+#containerFluid{
+  
+   margin: 10px 0px 0px 0px;
+   position: relative;
+   
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

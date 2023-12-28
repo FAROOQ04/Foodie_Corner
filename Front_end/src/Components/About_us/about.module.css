@@ -1,0 +1,43 @@
+#container {
+ 
+  display: flex;
+  justify-content: center;
+}
+.paraParent {
+ 
+  display: flex;
+  flex-direction: column;
+  padding: 0.313rem;
+  width: 50%;
+  margin: 0.625rem 0;
+}
+.para {
+  margin: 0.625rem 0px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+}
+.logoCard {
+  width: 18rem;
+  height: 21.875rem;
+  overflow: hidden;
+  margin: 1.25rem 0.625rem;
+}
+.logoCard img {
+  height: 15rem;
+  width: auto;
+}
+@media screen and (max-width: 300px) {
+  .paraParent {
+    height: auto;
+    width: auto;
+  }
+  #container {
+    display: flex;
+    flex-direction: column;
+  }
+  .logoCard {
+    width: auto;
+    height: auto;
+  }
+}

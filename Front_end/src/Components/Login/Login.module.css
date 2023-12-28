@@ -1,0 +1,15 @@
+#container{
+    border: 1px solid rgb(106, 106, 106);
+    margin-top: 5% ;
+    width: 600px;
+    padding: 20px;
+    margin-bottom: 8rem;
+    border-radius: 20px;
+}
+@media screen and (max-width:576px){
+    #container{
+        width: auto;
+        height: auto;
+    }
+    
+}

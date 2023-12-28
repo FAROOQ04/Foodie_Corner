@@ -1,0 +1,109 @@
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+}
+
+#nav {
+  background-color: #fff;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.9);
+  margin: 0px;
+  position: sticky;
+  top: 0;
+  z-index: 100000;
+}
+#list {
+  display: flex;
+  justify-content: space-between;
+  width: 22rem;
+  margin: auto;
+  padding: 0px;
+}
+#brand img {
+  width: 3.125rem;
+  height: 100%;
+}
+#list li {
+  list-style-type: none;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+#list li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+#list li a:hover {
+  background-color: rgba(220, 235, 213, 0.286);
+}
+#search {
+  width: 30rem;
+  padding: 5px;
+}
+#accountList {
+  position: relative;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 12rem;
+  padding: 0px;
+  margin: auto;
+}
+#accountList li {
+  margin: auto;
+}
+#accountList li a {
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: black;
+  padding: auto;
+  border-radius: 10px;
+}
+#accountList li a:hover {
+  background-color: rgba(220, 235, 213, 0.286);
+}
+@media screen and (max-width: 1119px) {
+  #search {
+    width: 22rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  #brand {
+    margin: 0px;
+  }
+  #accountList {
+    margin: 10px auto;
+    padding: 0px;
+    width: auto;
+  }
+  #search {
+    border: none;
+    margin: 0px;
+    width: auto;
+    padding: 0px;
+  }
+  #list {
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+  }
+  @media screen and (max-width: 214px) {
+    #search {
+      display: flex;
+      flex-direction: column;
+    }
+    #search input {
+      margin-bottom: 5px;
+    }
+  }
+}
+@media screen and (max-width: 151px) {
+  #brand {
+    width: 3rem;
+  }
+}
